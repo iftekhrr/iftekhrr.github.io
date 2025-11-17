@@ -1,0 +1,103 @@
+body {
+
+  text-align: center;
+  background-color: #222; 
+  color: #f0f0f0;       
+  font-family: 'Roboto', sans-serif;
+  margin: 15px;
+  padding: 0;
+}
+
+
+h1 {
+  margin-top: 25px;
+  color: #ff4081; 
+  text-align: center;
+}
+
+
+nav ul {
+  list-style: none;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff4081;
+}
+
+img {
+  width: 500px;   
+  height: 300px;  
+  object-fit: cover; 
+  margin: 10px;
+  border-radius: 8px; 
+}
+
+
+.icon {
+  margin-right: 8px;
+  color: #ff4081;
+}
+
+.events-img {
+  width: 850px;
+  height: 550px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 8px; 
+}
+
+.tour-img {
+  width: 850px;
+  height: 550px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 8px; 
+}
+
+
+.cover1-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 8px; 
+}
+
+.cover2-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 8px; 
+}
+
+.cover3-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 8px; 
+}
+
+.band-img {
+  width: 850px;
+  height: 550px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 8px; 
+}
+
