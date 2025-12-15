@@ -1,0 +1,394 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient( #0C0D0F,#460C14,#6C0E1A,#93131A,#cc0003);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.about {
+  max-width: 800px !important;
+  margin: 120px auto 60px auto !important;
+  padding: 2rem !important;
+  text-align: center !important;
+}
+
+.about h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: lighter;
+  position: relative;   
+  top: -20px;         
+  left: -130px;         
+}
+
+.start-designing h2 {
+  position: relative; 
+  left: 30px;  
+  top: -10px;   
+}
+
+.about p {
+  font-size: 1.0rem;
+  line-height: 1.8;
+margin-bottom: 1.5rem;
+  font-weight: lighter;
+  position: relative;
+  top: 30px;          
+  left: -5px;     
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: relative;
+  background: transparent;
+}
+
+
+.signin-wrapper {
+  position: absolute;
+  top: 2.2rem;
+  left: 2rem;
+}
+
+.signin-button {
+  padding: 0.5rem 1rem;
+  background-color: #460C14;
+  color: white;
+  border-radius: 4px;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+.signin-button:hover {
+  background-color: #404040;
+}
+
+
+nav {
+  position: absolute;
+  top: 2rem;
+  right: 7rem; 
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: lighter; 
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ff4d4d;
+}
+
+.menu-wrapper {
+  position: absolute;
+  top: 1.45rem;
+  right: 1.5rem;
+  z-index: 200;
+}
+
+.menu-button {
+  font-size: 1.5rem;
+  background: none;
+  color: white;
+  border: 1px solid transparent; 
+  cursor: pointer;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  background-color: #460C14;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 1rem;
+  z-index: 300;
+  min-width: 105px;
+}
+
+.menu-wrapper:hover .dropdown {
+  display: block;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.7rem;
+  font-weight: lighter;
+  color: white;
+
+  position: relative;
+  top: 50px;    
+  left: -10px;   
+}
+
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  position: relative;
+  top: 150px; 
+}
+
+
+.login h1 {
+  margin-bottom: 2rem;
+  font-size: 1.75rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+.login input {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: lighter;
+  border: none;
+  border-radius: 10px;
+  background-color: #6b6b6b; 
+  color: white;          
+}
+
+.login input::placeholder {
+  color: #FFFFFF;           
+}
+
+.login button {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #222222;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login button:hover {
+  background-color: #e60000;
+}
+
+.signup {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.signup a {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-left: 6px;
+  text-decoration: underline;
+}
+
+
+.design-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;          
+  width: 100vw;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tools, .actions {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 2rem;
+  height: auto;           
+  box-sizing: border-box;
+  position: relative;
+  top: 95px;              
+  left:0px;            
+  flex: 0 0 200px;       
+}
+
+.tools button, .actions button {
+  padding: 0.8rem;
+  background-color: #460C14;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tools button:hover, .actions button:hover {
+  background-color: #454545;
+}
+
+.canvas {
+  flex: 1;                
+  background-color: #340C0C;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 20px;          
+  position: relative;
+  top: 60px;          
+  left:0px;            
+  height: auto;           
+}
+
+.shape-display {
+  font-size: 15rem;
+  margin-bottom: 2rem;
+}
+
+.shape-options {
+  display: flex;
+  gap: 1rem;
+}
+
+.shape-options button {
+  padding: 1.5rem 2rem;
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15;
+}
+
+.shape-options button:hover {
+  background-color: #ff4d4d;
+}
+
+.start-designing .canvas {
+  background-color: black;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  border: 2px dashed white;
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+
+
+.user-creations .carousel {
+  display: flex;
+  gap: 1rem;
+}
+
+.user-creations img {
+  width: 100px;
+  height: auto;
+  border: 2px solid white;
+}
+
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8rem 4rem;
+  gap: 100px;
+  max-width: 1400px;
+}
+
+
+.help-options {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 24px;
+  position: relative;
+  top: 50px;           
+  left:-70px;            
+  transform: scale(1.5) 
+}
+
+.option {
+  background: #93131A;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: lighter;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.option:hover {
+  transform: scale(1.05);
+  background: #454545;
+}
+
+.help-page h1 {
+  text-align: left;
+  margin-left: -190px;   
+  margin-top: 20px;    
+  font-size: 3.8rem;   
+  font-weight: lighter;
+}
+
+
+.icons {
+  margin-top: -225px; 
+  margin-left: 1050px;  
+}
+
+.icons a:hover {
+  color: #ff0000;
+}
+
+
